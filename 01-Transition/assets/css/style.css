@@ -52,3 +52,10 @@ section{
     background-color: gold;
     font-size: 30px;
 }
+#d1{transition-timing-function: linear; } /*cubic-bezier(0,0,1,1)*/
+#d2{transition-timing-function: ease-in; } /*cubic-bezier(0.42,0,1,1)*/
+#d3{transition-timing-function: ease-out; } /*cubic-bezier(0,0,0.58,1)*/
+#d4{transition-timing-function: ease; } /*cubic-bezier(0.25,0.1,0.25,1)*/
+#d5{transition-timing-function: ease-in-out; } /*cubic-bezier(0.42,0.58,1,)*/
+#d6{transition-timing-function: steps(6,jump-none ); } /*jump-start,jump-end,start,end,jump-both,jump-none */
+#d7{transition-timing-function: cubic-beizer(0.5,0.7,0.8,0.1); }  

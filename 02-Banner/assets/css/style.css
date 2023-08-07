@@ -1,0 +1,59 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul{
+    float: right;
+    list-style-type: none;
+    
+    
+}
+header>nav>ul>li{
+    padding: 25px;
+    display: inline-block;
+}
+header>nav>ul>li:hover{
+    background-color: white;
+}
+header>nav>ul>li>a{
+color: white;
+text-decoration: none;
+}
+header>nav>ul>li:hover a{
+    color: green;
+}
+ /* p2 html code */
+ .banner1{
+    background-color: teal;
+ }
+ .commonBanner{
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+
+ .commonBanner>div{
+    background-color: rgba(0,0,0,0.3);
+    padding: 30px;
+    line-height: 2;
+    display: inline-block;
+    box-shadow: -2px -2px 6px black , 2px 2px 6px black;
+ }
+ .commonBanner>div>h1{
+    font-size: 60px;
+    text-shadow: -3px -3px 3px black;
+ }
+.banner2{
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
