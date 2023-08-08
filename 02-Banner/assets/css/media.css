@@ -24,6 +24,39 @@
     .banner2{
         background-image: url(../images/mobile.jpg);
     }
+    .banner3{
+        background: linear-gradient(to right,orange,white,green);
+    }
+    .banner4{
+        background: repeating-linear-gradient(20deg,orange,white,green 30%);
+    }
+    .banner5{
+        background: url(../images/tab.jpg)no-repeat left,url(../images/desktop.jpg)no-repeat right;
+        background-size: 50%;
+    }
+    .banner6{
+        background: linear-gradient(rgba(25,165,0,0.3),rgba(26,189,456,0.3)),url(../images/mobile.jpg)no-repeat center;
+        background-size: cover;
+    }
+    .banner8{
+        background: -o-linear-gradient(black,white);
+        background: -moz-linear-gradient(blue,red);
+        background: -webkit-linear-gradient(yellow,black);
+        background: linear-gradient(red,white,green);
+    }
+    .example-1{
+        background: radial-gradient(orange,white,brown);
+    
+    }
+    .example-2{
+        background: radial-gradient(circle,orange,white,skyblue);
+    }
+    .example-3{
+        background: radial-gradient(circle farthest-side at left bottom,orange,white,skyblue);
+    }
+    .example-4{
+        background: repeating-radial-gradient(orange, crimson 10%,skyblue 20%);
+    }
 }
 
 /* TAB */
@@ -44,5 +77,38 @@
     }
     .banner2{
         background-image: url(../images/tab.jpg);
+    }
+    .banner3{
+        background: linear-gradient(to left,orange,white,green);
+    }
+    .banner4{
+        background: repeating-linear-gradient(to left ,orange,white,green 60%);
+    }
+    .banner5{
+        background: url(../images/logo.jpeg)no-repeat left,url(../images/desktop.jpg)no-repeat right;
+        background-size: 50%;
+    }
+    .banner6{
+        background: linear-gradient(rgba(25,165,0,0.7),rgba(231,28,23,0.3)),url(../images/tab.jpg)no-repeat center;
+        background-size: cover;
+    }
+    .banner8{
+        background: -o-linear-gradient(grey,green);
+        background: -moz-linear-gradient(brown,red);
+        background: -webkit-linear-gradient(pink,red);
+        background: linear-gradient(orange,blue,gold);
+    }
+    .example-1{
+        background: radial-gradient(orange,green,skyblue);
+    
+    }
+    .example-2{
+        background: radial-gradient(circle,orange,white,skyblue);
+    }
+    .example-3{
+        background: radial-gradient(circle farthest-side at left bottom,orange,white,skyblue);
+    }
+    .example-4{
+        background: repeating-radial-gradient(orange, white 10%,black 20%);
     }
 }

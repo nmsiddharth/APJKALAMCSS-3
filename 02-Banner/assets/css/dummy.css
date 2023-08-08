@@ -1,0 +1,106 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+header{
+    background-color: grey;
+}
+
+header>nav>img{
+    height: 64px;
+}
+header>nav>ul{
+    float: right;
+    list-style-type: none;
+    
+    
+}
+header>nav>ul>li{
+    padding: 25px;
+    display: inline-block;
+}
+header>nav>ul>li:hover{
+    background-color: white;
+}
+header>nav>ul>li>a{
+color: white;
+text-decoration: none;
+}
+header>nav>ul>li:hover a{
+    color: green;
+}
+ /* p2 html code */
+ .banner1{
+    background-color: teal;
+ }
+ .commonBanner{
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px;
+ }
+
+ .commonBanner>div{
+    background-color: rgba(0,0,0,0.3);
+    padding: 30px;
+    line-height: 2;
+    display: inline-block;
+    box-shadow: -2px -2px 6px black , 2px 2px 6px black;
+ }
+ .commonBanner>div>h1{
+    font-size: 60px;
+    text-shadow: -3px -3px 3px black;
+ }
+ /* p3 html code */
+.banner2{
+    background-image: url(../images/desktop.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* p4 html code */
+
+
+
+
+.banner3{
+    background: linear-gradient(red,yellow,green);
+}
+
+.banner4{
+    background: repeating-linear-gradient(40deg, red,yellow,green 50%);
+}
+.banner5{
+    background: url(../images/desktop.jpg)no-repeat left,url(../images/tab.jpg)no-repeat right;
+    background-size: 50%;
+}
+.banner6{
+    background: linear-gradient(rgba(239, 43, 43,0.9),rgba(135, 206, 235,0.9)), url(../images/tab.jpg);
+    background-size: cover;
+}
+.banner8{
+    background: -o-linear-gradient(black,green);
+    background: -moz-linear-gradient(yellow,pink,purple);
+    background: -webkit-linear-gradient(crimson,white);
+}
+
+.banner9{
+    background-color: grey;
+    text-align: left;
+    line-height: 2;
+    padding: 20px;
+}
+
+.common{
+    width: 300px;
+    height: 500px;
+    margin: 20px;
+    border: 2px solid black;
+}
+.example-1{
+    background: radial-gradient(circle,black,green,skyblue);
+}
+.example-2{
+    background: radial-gradient(circle farthest-side at top right,yellow,green,skyblue);
+}
