@@ -1,0 +1,83 @@
+.commonAnimation{
+    padding: 20px;
+    border-radius: 5px;
+    margin: 30px;
+    height: 300px;
+}
+.commonAnimation>h1{
+    text-align: center;
+    /* color:white ; */
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+}
+.animation1{
+    background: black;
+    /* animation: abhi; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;*/
+    animation: abhi 10s infinite;
+}
+@keyframes abhi {
+    from { background:red;}
+    to{ background:blue;}    
+}
+
+/* p2 html code */
+
+.animation2{
+    background: url(../images/image1.jpg)no-repeat center;
+    background-size: 100%;
+    animation: sid 10s infinite;
+}
+@keyframes sid {
+    from{ background: url(../images/image1.jpg)no-repeat top;color:red;}
+    to{ background: url(../images/image2.jpg) no-repeat bottom;color: green;}
+}
+
+/* p3 html code */
+
+.animation3{
+    background: #fc466B;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 5px;
+    color: #fff;
+    position: absolute;
+    animation: cssAnimation3 10s infinite;
+}
+@keyframes cssAnimation3 {
+    0%{
+        top: 0px;
+        left: 0px;
+        background: #fc466B;
+        color: black;
+    }
+
+    25%{
+        top: 0px;
+        left: 600px;
+        background: teal;
+        color: red;
+    }
+
+    50%{
+        top: 400px;
+        left: 600px;
+        background: chartreuse;
+        color: blue;
+    }
+
+    75%{
+        top: 400px;
+        left: 0px;
+        background: cadetblue;
+        color: grey;
+    }
+
+    100%{
+        top: 0px;
+        left: 0px;
+        background: #fc466B;
+        color: black;
+    }
+}

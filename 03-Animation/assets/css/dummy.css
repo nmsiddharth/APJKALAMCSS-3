@@ -1,0 +1,72 @@
+.commonAnimation{
+    padding: 20px;
+    margin: 30px;
+    
+    border-radius: 5px;
+    height: 300px;
+}
+.commonAnimation>h1{
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 3px 3px black;
+    /* color: aliceblue; */
+}
+.animation1{
+    animation: sid 10s infinite;
+}
+@keyframes sid {
+    from { background: red;}
+    to{ background:blue; }
+}
+
+.animation2{
+    background: url(../images/image1.jpg)no-repeat center;
+    background-size: cover;
+    animation: hi 10s infinite;
+
+}
+@keyframes hi{
+    from { background: url(../images/image1.jpg)no-repeat top;color: red;}
+    to { background: url(../images/image2.jpg)no-repeat bottom; color: blue;}
+}
+.animation3{
+    background: blue;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    animation: hello 10s infinite;
+}
+@keyframes hello{
+    0%{
+        top: 0px;
+        right: 0px;
+        background: green;
+        color: black;
+    }
+    25%{
+        top: 0px;
+        right: 800px;
+        background: pink;
+        color: red;
+    }
+    50%{
+        top: 400px;
+        right: 800px;
+        background: yellow;
+        color: black;
+    }
+    75%{
+        top: 400px;
+        right: 0px;
+        background: honeydew;
+        color: grey;
+    }
+    100%{
+        top: 0px;
+        right: 0px;
+        background: gold;
+        color: brown;
+    }
+}
