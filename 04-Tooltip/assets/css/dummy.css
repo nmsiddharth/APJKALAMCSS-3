@@ -1,3 +1,31 @@
 .fa-square-youtube{
     color: red;
 }
+.fa-square-youtube:hover{
+    color: grey;
+
+}
+.tooltip{
+    position: relative;
+}
+.tooltip>span{
+    background-color: lightblue;
+    color: antiquewhite;
+    border-radius: 10px;
+    box-shadow: -3px -3px 8px #ccc, 3px 3px 8px #ccc;
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    display: none;
+}
+.tooltip:hover span{
+    display: block;
+}
+.tooltip>span::before{
+    content: "";
+    border: 10px;
+    border-color: transparent grey transparent transparent ;
+    border-style: solid;
+    position: absolute;
+    left: -20px;
+}
