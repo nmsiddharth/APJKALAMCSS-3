@@ -87,6 +87,26 @@ header>nav>ul>li:hover a{
 /* p8 html code */
 
 
+.banner7{
+    position: relative;
+}
+.banner7>div{
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+
+#bgvideo{
+    z-index: -1;
+    width: 100%;
+    position: absolute;
+    left: 0%;
+    right:0% ;
+    top: 0%;
+    bottom: 0%;
+
+   
+}
 
 
 /* p9 html code */
