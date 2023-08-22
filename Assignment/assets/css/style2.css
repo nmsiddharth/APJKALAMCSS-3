@@ -37,6 +37,7 @@
     height: 90px;
     width: 90px;
     margin-top: 10%;
+    transition: 1s;
 }
 #jessi{
     font-size: 20px;
@@ -199,19 +200,19 @@
     color: white;
 }
 .t1>.burger:hover{
-    transform: scale(2,2);
+    transform: scale(1.2,1.2);
 }
 .t1>div>h1:hover{
     color: red;
 }
 .t2>.netflix:hover{
-    transform: scale(2,2);
+    transform: scale(1.2,1.2);
 }
 .t2>div>h1:hover{
     color: red;
 }
 .t3>.money:hover{
-    transform: scale(2,2);
+    transform: scale(1.2,1.2);
 }
 .t3>div>h1:hover{
     color: red;
@@ -221,11 +222,13 @@
     color: white;
 }
 .circle:hover{
-    transform: scale(2,2);
+    transform: matrix(1.2,0,0,1.2,400,0);
     background-color: blue;
 }
 .img1:hover{
-    transform: matrix(3,0,0,3,0,100);
-   
-
+    transform: matrix(3,0,0,3,400,100);
+}
+.empty:hover{
+  transform: scale(1.5,1.5);
+ 
 }
