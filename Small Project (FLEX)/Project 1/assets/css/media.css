@@ -16,6 +16,9 @@
     .banner>section{
         width: 100%;
     }   
+    .container{
+        flex-flow: column ;  
+    }
 }
 
 /* TAB */
@@ -33,5 +36,8 @@
     }
     .banner>section{
         width: 70%;
-    };
+    }
+    .container{
+        flex-flow: column ;  
+    }
 }
