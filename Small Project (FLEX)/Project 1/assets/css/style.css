@@ -184,9 +184,10 @@ table tr:first-child th:first-child{
 .financial>.container{
     gap: 20px;
 }   
-.financial>.container>.img>img{
-    height: 510px;
+.financial>.container>section>img{
+    height: 570px;
     width: 600px;
+    margin-top: -25px;
     
 }
 .financial>.container>.plan{

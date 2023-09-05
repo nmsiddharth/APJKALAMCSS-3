@@ -19,6 +19,13 @@
     .container{
         flex-flow: column ;  
     }
+    .testimonials>.container>div>img{
+        height:50px;
+        width: 84px;
+        border-radius: 10px;
+    }
+   
+    
 }
 
 /* TAB */
@@ -40,4 +47,5 @@
     .container{
         flex-flow: column ;  
     }
+    
 }
