@@ -1,0 +1,192 @@
+/* MOBILE */
+@media (max-width:992px) {
+    [class*="col"] {
+        width: 100%
+    }
+
+    /* ICONS */
+    .icons {
+        text-align: left;
+    }
+
+    .icons>b {
+        margin: auto;
+    }
+     /* NAVIGATION */
+     header>nav {
+        text-align: center;
+    }
+
+    header>nav>ul {
+        float: none;
+    }
+
+    header>nav>ul>li {
+        display: block;
+    }
+
+    /* BANNER CODE */
+    .desktop-banner,
+    .tablet-banner {
+        display: none;
+    }
+
+    .mobile-banner {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .mobile-banner>video {
+        width: 100%;
+    }
+
+    .mobile-banner>div {
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .mobile-banner>div>p,
+    .mobile-banner>div>button {
+        font-size: 20px;
+    }
+
+    .mobile-banner>div>h1 {
+        font-size: 55px;
+    }
+
+    .mobile-banner>div>button {
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #dc3748;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .mobile-banner>div>button:hover {
+        background-color: #f8bf0d;
+    }
+
+}
+
+
+/* Tablet  */
+@media (min-width:993px) and (max-width:1200px) {
+    /* GRID */
+    .coltab1 {
+        width: 8.33%;
+    }
+    
+    .coltab2 {
+        width: 16.66%;
+    }
+    
+    .coltab3 {
+        width: 25%;
+    }
+    
+    .coltab4 {
+        width: 33.33%;
+    }
+    
+    .coltab5 {
+        width: 41.66%;
+    }
+    
+    .coltab6 {
+        width: 50%;
+    }
+    
+    .coltab7 {
+        width: 58.33%;
+    }
+    
+    .coltab8 {
+        width: 66.66%;
+    }
+    
+    .coltab9 {
+        width: 75%;
+    }
+    
+    .coltab10 {
+        width: 83.33%;
+    }
+    
+    .coltab11 {
+        width: 91.66%;
+    }
+    
+    .coltab12 {
+        width: 100%;
+    }
+    [class*="coltab"]{
+        float:left;
+        padding: 10px;
+    }
+     /* NAVIGATION */
+     header>nav {
+        text-align: center
+    }
+
+    header>nav>ul {
+        float: none;
+    }
+
+    /* TAB BANNER */
+    .desktop-banner,
+    .mobile-banner {
+        display: none;
+    }
+
+    .tablet-banner {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .tablet-banner>video {
+        width: 100%;
+    }
+
+    .tablet-banner>div {
+        position: absolute;
+        top: 20%;
+        left: 4%;
+        color: #fff;
+        line-height: 1.5;
+    }
+
+    .tablet-banner>div>p,
+    .tablet-banner>div>button {
+        font-size: 20px;
+    }
+
+    .tablet-banner>div>h1 {
+        font-size: 55px;
+    }
+
+    .tablet-banner>div>button {
+        padding: 20px;
+        margin: 20px auto;
+        background-color: #dc3748;
+        color: #fff;
+        border: none;
+        border-radius: 50px;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+    .tablet-banner>div>button:hover {
+        background-color: #f8bf0d;
+    }
+
+
+
+}

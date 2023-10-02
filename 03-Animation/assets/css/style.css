@@ -30,8 +30,12 @@
     animation: sid 10s infinite;
 }
 @keyframes sid {
-    from{ background: url(../images/image1.jpg)no-repeat top;color:red;}
-    to{ background: url(../images/image2.jpg) no-repeat bottom;color: green;}
+    from{ 
+        background: url(../images/image1.jpg)no-repeat top;color:red;
+    }
+    to{ 
+        background: url(../images/image2.jpg) no-repeat bottom;color: green;
+    }
 }
 
 /* p3 html code */

@@ -145,7 +145,12 @@ font-family: 'Lora', serif; */
   }
   .fa-house,.fa-burger,.fa-car-side,.fa-bag-shopping,.fa-earth-asia{
     color:rgba(141, 154, 173,0.6);
+    transition: 0.5s ease-in-out;
   }
+   .fa-house:hover,.fa-burger:hover,.fa-car-side:hover,.fa-bag-shopping:hover,.fa-earth-asia:hover{
+    transform: scale(1.5,1.5);
+    color: red;
+   }
   .item>p{
     margin: 5px;
     color: #fff;
@@ -156,12 +161,14 @@ font-family: 'Lora', serif; */
   .container2{
     display: flex;
     flex-flow: row nowrap;
-    
     background-color: #2C2D42;
     margin-left: 12%;
     margin-right: 10%;
     border-radius: 5px;
-    
+    transition: 0.5s ease-in-out;
+  }
+  .container2:hover{
+    transform: scale(1.1,1.1);
   }
   .popular>h2{
     margin-top: 60px;
@@ -172,9 +179,6 @@ font-family: 'Lora', serif; */
     margin-bottom: 50px;
     font-size: 13px;
   }
-  
-  
-  
   .grey1>i{
     background-color: #fff;
     padding: 15px;
@@ -183,11 +187,17 @@ font-family: 'Lora', serif; */
   .grey1{
     padding: 30px;
   }
+ 
   .grey{
     background-color: #8D9AAD;
     padding: 30px;
     padding-right: 90px;
     border-bottom: 1px solid black;
+    transition: 0.5s ease-in-out;
+  }
+  .grey:hover{
+    background-color: #2C2D42;
+    border-top: 1px solid #fff;
   }
   .grey>i{
     background-color: #fff;
@@ -220,6 +230,12 @@ font-family: 'Lora', serif; */
     border-radius: 10px;
     background-color: #fff;
     color:black;
+    transition: 0.5s ease-in-out;
+  }
+  .second>button:hover{
+    transform: scale(1.1,1.1);
+    background-color: crimson;
+    color: #fff;
   }
   .fa-eye{
     background-color: #8D9AAD;
@@ -244,7 +260,11 @@ font-family: 'Lora', serif; */
   margin-right: 10%;
   border-radius: 5px;
   margin-bottom: 25px;
+  transition: 0.5s ease-in-out;
  }
+ .container3:hover{
+  transform: scale(1.1,1.1);
+}
  .container3>div>img{
   width: 450px;
   border-top-left-radius: 5px;
@@ -301,6 +321,12 @@ font-family: 'Lora', serif; */
   color:#8D9AAD;
   border-color: transparent;
   border-radius: 5px;
+  transition: 0.5s ease-in-out;
+ }
+ .value>button:hover{
+  transform: scale(1.1,1.1);
+  background-color: crimson;
+  color: #fff;
  }
  .fa-ellipsis{
   color: #8D9AAD;
@@ -317,9 +343,15 @@ font-family: 'Lora', serif; */
   margin-top: 40px;
   padding-bottom: 30px;
   box-shadow: 0px -1px 9px rgba(240, 236, 236,0.4) ;
+  transition: 0.5s ease-in-out;
  }
+ .container4:hover{
+  transform: scale(1.1,1.1);
+  /* background-color: crimson;
+  color: #fff; */
+}
  .container4>div>img{
-  width:120px;
+  /* width:auto; */
   height: 50px;
   padding-top: 20px;
  }
@@ -356,11 +388,15 @@ font-family: 'Lora', serif; */
   color: black;
   margin-top: 20px;
  }
+ /* .three>p:hover{
+  color: #fff; */
+ 
  #num{
   color: black;
   background-color: transparent;
-  margin-left: 90px;
+  margin-left: 40px;
  }
+ 
  footer{
   margin-top: 30px;
   box-shadow: 0px -1px 9px rgba(240, 236, 236,0.4) ;

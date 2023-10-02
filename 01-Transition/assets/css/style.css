@@ -29,8 +29,8 @@ section{
     text-align: justify;
     transition: 2s;
     background-clip: content-box;
-    background-clip:  padding-box;
-    background-clip: border-box;
+    /* background-clip:  padding-box; */
+    /* background-clip: border-box; */
 }
 .bgClip:hover{
     border-radius: 50%;

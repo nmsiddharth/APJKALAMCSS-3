@@ -54,7 +54,7 @@ section{
 /* p5 html code */
 
 .matrix1:hover{
-    transform: matrix(2,0,0,2,120,300);
+     transform: matrix(2,0,0,2,120,300);  /* matrix(scaleX,skewY,skewX,scaleY,translateX,translateY) */
 }
 .matrix2:hover{
     transform: matrix(1,2,-1,1,-80,80);
